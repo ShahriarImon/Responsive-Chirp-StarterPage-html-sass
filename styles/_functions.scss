@@ -1,0 +1,64 @@
+@mixin flex($direction,$justify,$align){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;  
+}
+
+@mixin button1(){
+    color: white;
+    background-color: rgb(23, 23, 177);
+    font-weight: 600;
+    font-size: 100%;
+    padding: 2% 5%;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    &:hover{
+        background-color: rgb(158, 17, 17);
+    }
+}
+
+@mixin button2(){
+    color: rgb(23, 23, 177);
+    background-color: white;
+    font-weight: 600;
+    font-size: 100%;
+    padding: 2% 5%;
+    border: none;
+    border-radius: 4px;
+    &:hover{
+        background-color: rgb(158, 17, 17);
+        color: white;
+        cursor: pointer;
+    }
+}
+@mixin button3(){
+    color: rgb(23, 23, 177);
+    background-color: white;
+    font-weight: 600;
+    font-size: 100%;
+    padding: 2% 5%;
+    border: 1px solid grey;
+    border-radius: 4px;
+    &:hover{
+        background-color: rgb(158, 17, 17);
+        color: white;
+        cursor: pointer;
+    }
+}
+
+    @mixin button4(){
+        color: white;
+        background-color: rgb(23, 23, 177);
+        // font-weight: 600;
+        // font-size: 100%;
+        padding: 2% 5%;
+        border: 1px solid grey;
+        border-radius: 4px;
+        &:hover{
+            background-color: rgb(158, 17, 17);
+            color: white;
+            cursor: pointer;
+        }
+}

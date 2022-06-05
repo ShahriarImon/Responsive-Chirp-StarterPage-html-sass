@@ -1,0 +1,28 @@
+footer {
+    padding: 10px 0;
+    padding-right: 25px;
+    background-color: rgb(130, 235, 235);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .footer__container__left {
+        width: 50%;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-left: 6%;
+    }
+
+    .footer__container__right {
+        width: 50%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+
+        p {
+            padding-left: 25px;
+        }
+    }
+
+}

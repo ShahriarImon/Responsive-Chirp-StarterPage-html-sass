@@ -1,0 +1,172 @@
+main {
+  margin: 5% 10%;
+}
+
+main .main__container1 {
+  margin-bottom: 5%;
+}
+
+main .main__container1 .main__container1__sec2 {
+  padding-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .main__container1 .main__container1__sec2__item {
+  min-width: 33.33%;
+  padding-right: 2%;
+}
+
+main .main__container2 {
+  padding-top: 5%;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  background-color: #4747b6;
+}
+
+main .main__container2 .main__container2__left {
+  min-width: 50%;
+  padding: 0 3%;
+}
+
+main .main__container2 .main__container2__left button {
+  color: #1717b1;
+  background-color: white;
+  font-weight: 600;
+  font-size: 100%;
+  padding: 2% 5%;
+  border: none;
+  border-radius: 4px;
+}
+
+main .main__container2 .main__container2__left button:hover {
+  background-color: #9e1111;
+  color: white;
+  cursor: pointer;
+}
+
+main .main__container2 .main__container2__right {
+  min-width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+main .main__container2 .main__container2__right img {
+  width: 90%;
+}
+
+main .main__container3 {
+  padding-top: 7%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .main__container3 .main__container3__item {
+  min-width: 33%;
+  margin: 1%;
+  padding: 3%;
+  border: 1px solid grey;
+  border-radius: 8px;
+}
+
+main .main__container3 .main__container3__item .main__container3__item__portfolioInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+main .main__container3 .main__container3__item .main__container3__item__portfolioInfo .main__container3__item__portfolioInfo__profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .main__container3 .main__container3__item .main__container3__item__portfolioInfo .main__container3__item__portfolioInfo__profile .main__container3__item__portfolioInfo__profile__name_revenue {
+  padding-left: 2%;
+}
+
+main .main__container3 .main__container3__item .main__container3__item__portfolioInfo button {
+  width: 100%;
+  margin-top: 12px;
+  padding: 3%;
+  color: #1717b1;
+  background-color: white;
+  font-weight: 600;
+  font-size: 100%;
+  padding: 2% 5%;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+main .main__container3 .main__container3__item .main__container3__item__portfolioInfo button:hover {
+  background-color: #9e1111;
+  color: white;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
